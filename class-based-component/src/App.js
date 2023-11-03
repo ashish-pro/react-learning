@@ -1,8 +1,14 @@
 
+import ComponentA from './components/ComponentA';
+import ComponentB from './components/ComponentB';
+import ComponentC from './components/ComponentC';
 let App = () => {
   return (
     <div>
-      <h2>Hello from App</h2>
+      <h1>Hello From App.js</h1>
+      <ComponentA/>
+      <ComponentB/>
+      <ComponentC/>
     </div>
   );
 }
