@@ -1,4 +1,4 @@
-let user = [{"id":"006463012-9","first_name":"Adelaida","last_name":"Udall","email":"audall0@php.net","gender":"Female","location":"Xiaogang"},
+[{"id":"006463012-9","first_name":"Adelaida","last_name":"Udall","email":"audall0@php.net","gender":"Female","location":"Xiaogang"},
 {"id":"814303145-4","first_name":"Clementina","last_name":"Bramsom","email":"cbramsom1@oaic.gov.au","gender":"Female","location":"Ogōri-shimogō"},
 {"id":"869761876-2","first_name":"Granville","last_name":"Naismith","email":"gnaismith2@ibm.com","gender":"Male","location":"Voloshka"},
 {"id":"259988689-9","first_name":"Scarlet","last_name":"Karle","email":"skarle3@furl.net","gender":"Female","location":"Lianga"},
@@ -497,6 +497,4 @@ let user = [{"id":"006463012-9","first_name":"Adelaida","last_name":"Udall","ema
 {"id":"612265833-2","first_name":"Murry","last_name":"Kirman","email":"mkirmands@blogs.com","gender":"Male","location":"Quanjiang"},
 {"id":"798227999-6","first_name":"Desmund","last_name":"Plaskitt","email":"dplaskittdt@netlog.com","gender":"Male","location":"Waingapu"},
 {"id":"684293204-1","first_name":"Etan","last_name":"Bum","email":"ebumdu@wufoo.com","gender":"Male","location":"Breda"},
-{"id":"426083231-X","first_name":"Matti","last_name":"Cabble","email":"mcabbledv@techcrunch.com","gender":"Female","location":"Banjar Timbrah"}];
-
-export default user;
+{"id":"426083231-X","first_name":"Matti","last_name":"Cabble","email":"mcabbledv@techcrunch.com","gender":"Female","location":"Banjar Timbrah"}]

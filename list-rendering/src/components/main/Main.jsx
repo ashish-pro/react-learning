@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import user from '../data/Userdata'
+import userdata from '../data/USER_DATA.json'
 
 export class Main extends Component {
     constructor(props){
         super(props);
-        this.state = user;
+        this.state = userdata;
     }
   render() {
     return (
       <div>
-        <pre>{JSON.stringify(this.state.user)}</pre>
+        <pre>{JSON.stringify(this.state.userdata)}</pre>
       </div>
     )
   }
