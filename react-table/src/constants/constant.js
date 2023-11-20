@@ -12,3 +12,26 @@ export const fetchData = [  {
       "count": 120
     }
   },]
+
+export const tableColumn = [
+  {
+    Header: "ID",
+    accessor: "id",
+  },
+  {
+    Header: "Title",
+    accessor: "title",
+  },
+  {
+    Header: "Category",
+    accessor: "category",
+  },
+  {
+    Header: "Product Image",
+    accessor: "image",
+  },
+  {
+    Header: "Price",
+    accessor: "price"
+  },
+]
