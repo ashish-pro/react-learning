@@ -1,4 +1,4 @@
-export const API_URLS = "https://fakestoreapi.com/products";
+export const API_URL = "https://fakestoreapi.com/products";
 
 export const fetchData = [  {
     "id": 1,
@@ -13,25 +13,46 @@ export const fetchData = [  {
     }
   },]
 
-export const tableColumn = [
-  {
-    Header: "ID",
-    accessor: "id",
-  },
-  {
-    Header: "Title",
-    accessor: "title",
-  },
-  {
-    Header: "Category",
-    accessor: "category",
-  },
-  {
-    Header: "Product Image",
-    accessor: "image",
-  },
-  {
-    Header: "Price",
-    accessor: "price"
-  },
-]
+  export const tableColumn = [
+    {
+      Header: "Not Yet Changed",
+      columns: [
+        {
+          Header: "ID",
+          accessor: "id",
+        },
+        {
+          Header: "Title",
+          accessor: "title",
+        },
+        {
+          Header: "Category",
+          accessor: "category",
+        },
+      ],
+    },
+    {
+      Header: "Changed",
+      columns: [
+        {
+          Header: "Product Image",
+          accessor: "image",
+          Cell: ({ row }) => <Image src={row.values.image} h={100} />,
+        },
+        {
+          Header: "Price",
+          accessor: "price",
+          Cell: ({ row }) => ` $${row.values.price}`,
+        },
+        {
+          Header: "Action",
+          accessor: "action",
+          Cell: ({ row }) => (
+            <Button size="sm" onClick={() => alert(`$${row.values.price}`)}>
+              Show Price
+            </Button>
+          ),
+        },
+      ],
+    },
+  ];
