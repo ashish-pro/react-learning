@@ -6,14 +6,13 @@ const Product = () => {
         return state;
     })
     let dispatch = useDispatch();
-
   return (
     <div>
         <h3>Product Component</h3>
         <pre>{JSON.stringify(product)}</pre>
-        <button onClick={()=>(dispatch(decrAction()))}>-</button>
+        <button onClick={()=>{dispatch(decrAction())}}>-</button>
         {product.qty}
-        <button onClick={()=>(dispatch(incrAction()))}>+</button>
+        <button onClick={()=>{dispatch(incrAction())}}>+</button>
     </div>
   )
 }
